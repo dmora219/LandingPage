@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+    margin: 0 auto;
+    padding: 0;
+    width: 83%;
+}
+
+header{
+    color: white;
+    background-color: #1f2937;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+a{
+    margin-right: 50px;
+}
+
+a:link{
+    text-decoration: none;
+    color: white;
+}
+
+.container-main{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+.container-main .main-text{
+    flex:1;
+    padding-left: 5%;
+    padding-bottom: 3%;
+}
+
+.container-main img{
+    width: 70%;
+    margin: 15%;
+}
+.imgOne{
+    flex: 2;
+}
+
+h1{
+    font-size: 48px;
+    font-weight: bolder;
+}
+p{
+    font-size: 18px;
+}
+.main-text{
+    width: 40%;
+}
+
+.btn{
+    background-color: #3882f6;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 3%;
+    margin: 2%;
+    align-items: center;
+}
+
+.section-one{
+    background-color: white;
+    height: 50vh;
+    align-items: center;
+}
+h2{
+   position: relative;
+   left: 37%;
+   top: 13%;
+   font-size: 39px;
+}
+
+.img-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    gap: 3%;
+}
+
+.quote{
+    background-color: gray;
+    height: 50vh;
+}
+
+h3{
+    position: relative;
+    left: 5%;
+    top: 41%;
+    flex-basis: 60%;
+    font-size: 25px;
+    
+    
+}
+
+.section-two{
+    background-color: white;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    background-color: blue;
+    display: flex;
+    padding: 4%;
+    width: 49%;
+    border-radius: 14px;
+    color: white;
+}
+
+.btn-two{
+    background-color:  blue;
+    border: 2px solid white;
+    margin-left: 5%;
+    padding: 2%;
+    border-radius: 15px;
+    color: white;
+    font-weight: bold;
+}
+footer{
+    background-color: black;
+    color: white;
+    height: 20vh;
+    width: 100vw;
+
+}
+footer p {
+    position: relative;
+    left: 34%;
+    top: 39%;
+       font-size: 20px;
+}
